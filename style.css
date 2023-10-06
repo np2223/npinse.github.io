@@ -1,0 +1,27 @@
+.name {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: 'Kanit', sans-serif;}
+
+
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+* {
+    box-sizing: border-box;
+    }
+
+    body {margin: 2;}
