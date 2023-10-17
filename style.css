@@ -32,10 +32,10 @@
 
 .btn1 {
   float: right;
-  margin-right: 600px;
+  margin-right: 400px;
   margin-top: -32px;
-  /* width: 100px;
-  height: 30px; */
+  width: 100px;
+  height: 30px;
   font-size: 12pt;
 
   padding: 5px 15px;
@@ -63,10 +63,10 @@
 
 .btn2 {
   float: right;
-  margin-right: 600px;
+  margin-right: 400px;
   margin-top: -32px;
-  /* width: 100px;
-  height: 30px; */
+  width: 100px;
+  height: 30px;
   font-size: 12pt;
 
   padding: 5px 15px;
@@ -91,11 +91,42 @@
   transform: translateY(4px);
 
 }
+.btnlike {
+  /* float: right;
+  margin-right: 400px;
+  margin-top: -32px;
+  width: 100px;
+  height: 30px;
+  font-size: 12pt; */
 
+  padding: 5px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(0, 80, 199);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #a09e9e;
+
+}
+
+.btnlike:hover {
+  background-color: #1997e0
+}
+
+.btnlike:active {
+  background-color: blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
 * {
   box-sizing: border-box;
 }
 
-body {
-  margin: 2;
+body{
+  padding: 2px;
 }
+h3 {margin-left: 1550px;}
+
