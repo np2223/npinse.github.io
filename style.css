@@ -132,7 +132,10 @@ h3 {margin-left: 1550px;}
 
 /* Responsive Web Design */
 
-
+h2#handorder {
+  /* background-color: lightgrey; */
+  padding: 20px;
+}
 @media screen and (min-width: 600px) {
   h2#handorder{
     font-size: 30pt;
@@ -143,7 +146,26 @@ h3 {margin-left: 1550px;}
 
 @media screen and (max-width: 600px) {
   h2#handorder{
-    font-size: 12pt;
-    background-color: aqua;
+    font-size: 8pt;
+    
+  }
+}
+
+h2#inorder {
+  /* background-color: lightgrey; */
+  padding: 20px;
+}
+@media screen and (min-width: 600px) {
+  h2#inorder{
+    font-size: 30pt;
+    background-color: #04AA6D;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  h2#inorder{
+    font-size: 8pt;
+    
   }
 }
