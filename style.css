@@ -131,6 +131,7 @@ body{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  
 }
 /* h3 {margin-left: 1550px;} */
 
@@ -159,14 +160,14 @@ h2#handorder {
 
 @media screen and (max-width: 600px) {
   h2#handorder{
-    font-size: 8pt;
+    font-size: 5pt;
   }
   h2#inorder{
-    font-size: 8pt;
+    font-size: 5pt;
     
   }
   h3#inorder{
-    font-size: 8pt;
+    font-size: 5pt;
     
   }
   
@@ -208,6 +209,11 @@ h2#handorder {
     border-radius: 15px;
     box-shadow: 0 3px #999;
   
+  }
+  body{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
   }
 }
 
