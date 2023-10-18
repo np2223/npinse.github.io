@@ -140,7 +140,7 @@ h2#handorder {
   /* background-color: lightgrey; */
   padding: 20px;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   h2#handorder{
     font-size: 30pt;
     
@@ -153,20 +153,61 @@ h2#handorder {
     font-size: 30pt;
     
   }
+
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   h2#handorder{
-    font-size: 6pt;
+    font-size: 8pt;
   }
   h2#inorder{
-    font-size: 6pt;
+    font-size: 8pt;
     
   }
   h3#inorder{
-    font-size: 6pt;
+    font-size: 8pt;
     
+  }
+  
+  .btn1 {
+    float: right;
+    margin-right: auto ;
+    margin-top: -14px;
+    width: 60px;
+    height: 10px;
+    font-size: 6pt;
+  
+    padding: 1px 7px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+  
+  }
+
+  .btn2 {
+    float: right;
+    margin-right: auto ;
+    margin-top: -9.5px;
+    width: 60px;
+    height: 10px;
+    font-size: 6pt;
+  
+    padding: 1px 7px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+  
   }
 }
 
