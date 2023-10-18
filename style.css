@@ -32,8 +32,8 @@
 
 .btn1 {
   float: right;
-  margin-right: 400px;
-  margin-top: -32px;
+  /* margin-right: 400px;
+  margin-top: -32px; */
   width: 100px;
   height: 30px;
   font-size: 12pt;
@@ -63,8 +63,8 @@
 
 .btn2 {
   float: right;
-  margin-right: 400px;
-  margin-top: -32px;
+  /* margin-right: 400px;
+  margin-top: -32px; */
   width: 100px;
   height: 30px;
   font-size: 12pt;
@@ -130,3 +130,20 @@ body{
 }
 h3 {margin-left: 1550px;}
 
+/* Responsive Web Design */
+
+
+@media screen and (min-width: 600px) {
+  h2#handorder{
+    font-size: 30pt;
+    background-color: #04AA6D;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  h2#handorder{
+    font-size: 12pt;
+    background-color: aqua;
+  }
+}
