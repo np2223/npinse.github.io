@@ -21,7 +21,7 @@
 .column {
   float: left;
   width: 50%;
-  padding: 15px;
+  padding: 5px;
 }
 
 .row:after {
@@ -140,7 +140,7 @@ h2#handorder {
   /* background-color: lightgrey; */
   padding: 20px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
   h2#handorder{
     font-size: 30pt;
     
@@ -156,15 +156,17 @@ h2#handorder {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   h2#handorder{
-    font-size: 8pt;
+    font-size: 6pt;
   }
   h2#inorder{
-    font-size: 8pt; 
+    font-size: 6pt;
+    
   }
   h3#inorder{
-    font-size: 8pt;
+    font-size: 6pt;
+    
   }
 }
 
@@ -172,3 +174,5 @@ h2#inorder {
   /* background-color: lightgrey; */
   padding: 20px;
 }
+
+div.column{padding: 5px;}
