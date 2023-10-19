@@ -23,13 +23,3 @@ function hardskills() {
     }
 }
 
-function count() {
-    counter++;
-    document.querySelector('h3').innerHTML = counter;
-    if (counter % 1 === 0) {
-        alert(`Thank you for liking my page 💖`);
-    }
-}
-document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('button').onclick = count;
-});
