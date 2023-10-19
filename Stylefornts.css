@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&family=Kanit:wght@500&family=Noto+Sans+Thai:wght@800&family=Pixelify+Sans&family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Dancing+Script:wght@700&family=IBM+Plex+Sans+Thai&family=Kanit:wght@500&family=Noto+Sans+Thai:wght@800&family=Pixelify+Sans&family=Tilt+Neon&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Dancing+Script:wght@700&family=IBM+Plex+Sans+Thai&family=Kanit:wght@500&family=Lobster&family=Noto+Sans+Thai:wght@800&family=Pixelify+Sans&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Dancing+Script:wght@700&family=IBM+Plex+Sans+Thai&family=Kanit:wght@500&family=Lobster&family=Nosifer&family=Noto+Sans+Thai:wght@800&family=Pixelify+Sans&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Dancing+Script:wght@700&family=IBM+Plex+Sans+Thai&family=Kanit:wght@500&family=Lobster&family=Luckiest+Guy&family=Nosifer&family=Noto+Sans+Thai:wght@800&family=Pixelify+Sans&family=Tilt+Neon&display=swap');
 
 
 
 
 body {font-family: 'Young Serif', serif;}
 #inorder {font-family: 'Tilt Neon', sans-serif;}
-#handorder{font-family: 'Young Serif', serif}
-
+#handorder{font-family: 'Lobster', sans-serif;}
+#ordername{font-family: 'Luckiest Guy', cursive;}
